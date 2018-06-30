@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/player_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/heno1"
+        android:scaleType="center" />
+
+    <TextView
+        android:id="@+id/player_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/henrix_mxitaryan"
+        android:layout_gravity="bottom|center"
+        android:textColor="#317fcc"
+        android:textStyle="bold"
+        android:textSize="@dimen/player_text_size"
+        android:layout_marginBottom="@dimen/player_text"/>
+
+    <TextView
+        android:id="@+id/player_club"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arsenal"
+        android:layout_gravity="bottom|center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/player_text_size"
+        android:layout_marginBottom="@dimen/club_size"/>
+
+</FrameLayout>
